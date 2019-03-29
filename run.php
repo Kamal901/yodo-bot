@@ -26,8 +26,8 @@ error_reporting(0);
         if($cek == "1"){
             $kode_negara = "1";
             $nomor = substr($nomor,1,15);
-        }else if($cek == "6"){
-            $kode_negara = "62";
+        }else if($cek == "4"){
+            $kode_negara = "44";
             $nomor = substr($nomor,2,15);
         }
         return array($kode_negara, $nomor);
